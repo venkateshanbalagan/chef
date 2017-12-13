@@ -1,0 +1,199 @@
+I, [2017-12-04T21:07:11.068389 #13773]  INFO -- default-centos-72: -----> Converging <default-centos-72>...
+I, [2017-12-04T21:07:11.070204 #13773]  INFO -- default-centos-72: Preparing files for transfer
+I, [2017-12-04T21:07:11.070343 #13773]  INFO -- default-centos-72: Preparing dna.json
+I, [2017-12-04T21:07:11.070788 #13773]  INFO -- default-centos-72: Preparing cookbooks from project directory
+I, [2017-12-04T21:07:11.074230 #13773]  INFO -- default-centos-72: Removing non-cookbook files before transfer
+I, [2017-12-04T21:07:11.078160 #13773]  INFO -- default-centos-72: Preparing solo.rb
+I, [2017-12-04T21:07:11.317345 #13773]  INFO -- default-centos-72: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-12-04T21:07:11.320933 #13773]  INFO -- default-centos-72: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-12-04T21:07:11.322713 #13773]  INFO -- default-centos-72: Trying curl...
+I, [2017-12-04T21:07:11.589732 #13773]  INFO -- default-centos-72: Download complete.
+I, [2017-12-04T21:07:11.634860 #13773]  INFO -- default-centos-72: el 7 x86_64
+I, [2017-12-04T21:07:11.634943 #13773]  INFO -- default-centos-72: Getting information for chef stable  for el...
+I, [2017-12-04T21:07:11.634967 #13773]  INFO -- default-centos-72: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2017-12-04T21:07:11.634985 #13773]  INFO -- default-centos-72:   to file /tmp/install.sh.42/metadata.txt
+I, [2017-12-04T21:07:11.635021 #13773]  INFO -- default-centos-72: trying curl...
+I, [2017-12-04T21:07:11.802368 #13773]  INFO -- default-centos-72: sha1	037a61a5d9c89d9b71d4c4f6256f45ed422a73ee
+I, [2017-12-04T21:07:11.802449 #13773]  INFO -- default-centos-72: sha256	18826690ac2c7e5f16a21d898ed77be7d78fd2d84bc2a71b4506ee480876bc4b
+I, [2017-12-04T21:07:11.802473 #13773]  INFO -- default-centos-72: url	https://packages.chef.io/files/stable/chef/13.6.4/el/7/chef-13.6.4-1.el7.x86_64.rpm
+I, [2017-12-04T21:07:11.802490 #13773]  INFO -- default-centos-72: version	13.6.4
+I, [2017-12-04T21:07:11.803481 #13773]  INFO -- default-centos-72: downloaded metadata file looks valid...
+I, [2017-12-04T21:07:11.827308 #13773]  INFO -- default-centos-72: downloading https://packages.chef.io/files/stable/chef/13.6.4/el/7/chef-13.6.4-1.el7.x86_64.rpm
+I, [2017-12-04T21:07:11.827413 #13773]  INFO -- default-centos-72:   to file /tmp/install.sh.42/chef-13.6.4-1.el7.x86_64.rpm
+I, [2017-12-04T21:07:11.827483 #13773]  INFO -- default-centos-72: trying curl...
+I, [2017-12-04T21:07:13.466131 #13773]  INFO -- default-centos-72: Comparing checksum with sha256sum...
+I, [2017-12-04T21:07:13.630110 #13773]  INFO -- default-centos-72: 
+I, [2017-12-04T21:07:13.630223 #13773]  INFO -- default-centos-72: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T21:07:13.630247 #13773]  INFO -- default-centos-72: 
+I, [2017-12-04T21:07:13.630264 #13773]  INFO -- default-centos-72: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-12-04T21:07:13.630323 #13773]  INFO -- default-centos-72: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-12-04T21:07:13.630341 #13773]  INFO -- default-centos-72: be upgraded without warning on new releases, even to new major releases.
+I, [2017-12-04T21:07:13.630356 #13773]  INFO -- default-centos-72: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-12-04T21:07:13.630370 #13773]  INFO -- default-centos-72: CI/CD environments.
+I, [2017-12-04T21:07:13.630383 #13773]  INFO -- default-centos-72: 
+I, [2017-12-04T21:07:13.630397 #13773]  INFO -- default-centos-72: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T21:07:13.630411 #13773]  INFO -- default-centos-72: 
+I, [2017-12-04T21:07:13.630424 #13773]  INFO -- default-centos-72: Installing chef 
+I, [2017-12-04T21:07:13.630436 #13773]  INFO -- default-centos-72: installing with rpm...
+I, [2017-12-04T21:07:13.697820 #13773]  INFO -- default-centos-72: warning: /tmp/install.sh.42/chef-13.6.4-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2017-12-04T21:07:13.927822 #13773]  INFO -- default-centos-72: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2017-12-04T21:07:13.934594 #13773]  INFO -- default-centos-72: Updating / installing...
+I, [2017-12-04T21:07:22.203764 #13773]  INFO -- default-centos-72:    1:chef-13.6.4-1.el7                                                  (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 52%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2017-12-04T21:07:22.856508 #13773]  INFO -- default-centos-72: Thank you for installing Chef!
+I, [2017-12-04T21:07:23.035308 #13773]  INFO -- default-centos-72: Transferring files to <default-centos-72>
+I, [2017-12-04T21:07:24.782721 #13773]  INFO -- default-centos-72: Starting Chef Client, version 13.6.4
+I, [2017-12-04T21:07:25.064449 #13773]  INFO -- default-centos-72: [2017-12-04T21:07:25+00:00] WARN: Plugin Network: unable to detect ipaddress
+I, [2017-12-04T21:07:25.064529 #13773]  INFO -- default-centos-72: [2017-12-04T21:07:25+00:00] WARN: Plugin Network: unable to detect ipaddress
+I, [2017-12-04T21:07:25.680672 #13773]  INFO -- default-centos-72: Creating a new client identity for default-centos-72 using the validator key.
+I, [2017-12-04T21:07:25.773694 #13773]  INFO -- default-centos-72: resolving cookbooks for run list: []
+I, [2017-12-04T21:07:25.773777 #13773]  INFO -- default-centos-72: Synchronizing Cookbooks:
+I, [2017-12-04T21:07:25.795788 #13773]  INFO -- default-centos-72: Installing Cookbook Gems:
+I, [2017-12-04T21:07:25.795865 #13773]  INFO -- default-centos-72: Compiling Cookbooks...
+I, [2017-12-04T21:07:25.795894 #13773]  INFO -- default-centos-72: [2017-12-04T21:07:25+00:00] WARN: Node default-centos-72 has an empty run list.
+I, [2017-12-04T21:07:25.795917 #13773]  INFO -- default-centos-72: [2017-12-04T21:07:25+00:00] WARN: Node default-centos-72 has an empty run list.
+I, [2017-12-04T21:07:25.795932 #13773]  INFO -- default-centos-72: Converging 0 resources
+I, [2017-12-04T21:07:25.808644 #13773]  INFO -- default-centos-72: 
+I, [2017-12-04T21:07:25.808704 #13773]  INFO -- default-centos-72: Running handlers:
+I, [2017-12-04T21:07:25.808731 #13773]  INFO -- default-centos-72: Running handlers complete
+I, [2017-12-04T21:07:25.808750 #13773]  INFO -- default-centos-72: Chef Client finished, 0/0 resources updated in 01 seconds
+I, [2017-12-04T21:07:25.834151 #13773]  INFO -- default-centos-72: Finished converging <default-centos-72> (0m14.76s).
+I, [2017-12-04T21:07:25.834291 #13773]  INFO -- default-centos-72: -----> Setting up <default-centos-72>...
+I, [2017-12-04T21:07:25.835510 #13773]  INFO -- default-centos-72: Finished setting up <default-centos-72> (0m0.00s).
+I, [2017-12-04T21:07:25.835598 #13773]  INFO -- default-centos-72: -----> Verifying <default-centos-72>...
+I, [2017-12-04T21:07:25.836903 #13773]  INFO -- default-centos-72: Preparing files for transfer
+I, [2017-12-04T21:07:26.012695 #13773]  INFO -- default-centos-72: -----> Installing Busser (busser)
+I, [2017-12-04T21:07:26.400798 #13773]  INFO -- default-centos-72: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 26%)Fetching: thor-0.19.0.gem ( 29%)Fetching: thor-0.19.0.gem ( 32%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2017-12-04T21:07:26.549475 #13773]  INFO -- default-centos-72: Successfully installed thor-0.19.0
+I, [2017-12-04T21:07:26.596695 #13773]  INFO -- default-centos-72: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2017-12-04T21:07:26.611585 #13773]  INFO -- default-centos-72: Successfully installed busser-0.7.1
+I, [2017-12-04T21:07:26.611655 #13773]  INFO -- default-centos-72: 2 gems installed
+I, [2017-12-04T21:07:26.624510 #13773]  INFO -- default-centos-72: Installing Busser plugins: busser-helpers busser-server_spec
+I, [2017-12-04T21:07:27.432174 #13773]  INFO -- default-centos-72: /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/resolver/installer_set.rb:71:in `add_always_install': Unable to resolve dependency: user requested 'busser-helpers (>= 0)' (Gem::UnsatisfiableDependencyError)
+I, [2017-12-04T21:07:27.432260 #13773]  INFO -- default-centos-72: 	from /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/dependency_installer.rb:474:in `resolve_dependencies'
+I, [2017-12-04T21:07:27.432338 #13773]  INFO -- default-centos-72: 	from /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/dependency_installer.rb:384:in `install'
+I, [2017-12-04T21:07:27.432361 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:44:in `install_gem'
+I, [2017-12-04T21:07:27.432382 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:66:in `install_plugin_gem'
+I, [2017-12-04T21:07:27.432403 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:53:in `install'
+I, [2017-12-04T21:07:27.432423 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block (2 levels) in install_all'
+I, [2017-12-04T21:07:27.432459 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `each'
+I, [2017-12-04T21:07:27.432483 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block in install_all'
+I, [2017-12-04T21:07:27.432503 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:71:in `silence_gem_ui'
+I, [2017-12-04T21:07:27.432519 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:42:in `install_all'
+I, [2017-12-04T21:07:27.432537 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:27.432552 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:27.432569 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `block in invoke_all'
+I, [2017-12-04T21:07:27.432584 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `each'
+I, [2017-12-04T21:07:27.432614 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `map'
+I, [2017-12-04T21:07:27.432630 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `invoke_all'
+I, [2017-12-04T21:07:27.432647 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/group.rb:232:in `dispatch'
+I, [2017-12-04T21:07:27.432662 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2017-12-04T21:07:27.432679 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:40:in `block in register'
+I, [2017-12-04T21:07:27.432693 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:27.432719 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:27.432736 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2017-12-04T21:07:27.432750 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2017-12-04T21:07:27.432763 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:235:in `block in subcommand'
+I, [2017-12-04T21:07:27.432779 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:27.432793 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:27.432805 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2017-12-04T21:07:27.432821 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/base.rb:440:in `start'
+I, [2017-12-04T21:07:27.432834 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/gems/gems/busser-0.7.1/bin/busser:8:in `<top (required)>'
+I, [2017-12-04T21:07:27.432847 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/bin/busser:23:in `load'
+I, [2017-12-04T21:07:27.432871 #13773]  INFO -- default-centos-72: 	from /tmp/verifier/bin/busser:23:in `<main>'
+E, [2017-12-04T21:07:27.435421 #13773] ERROR -- default-centos-72: Verify failed on instance <default-centos-72>.
+E, [2017-12-04T21:07:27.435518 #13773] ERROR -- default-centos-72: ------Exception-------
+E, [2017-12-04T21:07:27.435540 #13773] ERROR -- default-centos-72: Class: Kitchen::ActionFailed
+E, [2017-12-04T21:07:27.435553 #13773] ERROR -- default-centos-72: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-helpers busser-server_spec"
+
+$gem list busser -i 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+echo "       Installing Busser plugins: $plugins"
+$busser plugin install $plugins
+']
+E, [2017-12-04T21:07:27.435564 #13773] ERROR -- default-centos-72: ----------------------
+E, [2017-12-04T21:07:27.435576 #13773] ERROR -- default-centos-72: ------Backtrace-------
+E, [2017-12-04T21:07:27.435588 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2017-12-04T21:07:27.435598 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2017-12-04T21:07:27.435614 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2017-12-04T21:07:27.435626 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2017-12-04T21:07:27.435636 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2017-12-04T21:07:27.435645 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T21:07:27.435655 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2017-12-04T21:07:27.435664 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2017-12-04T21:07:27.435674 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2017-12-04T21:07:27.435700 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2017-12-04T21:07:27.435710 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2017-12-04T21:07:27.435720 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2017-12-04T21:07:27.435729 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2017-12-04T21:07:27.435738 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2017-12-04T21:07:27.435747 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2017-12-04T21:07:27.435756 #13773] ERROR -- default-centos-72: ----End Backtrace-----
+E, [2017-12-04T21:07:27.435765 #13773] ERROR -- default-centos-72: ---Nested Exception---
+E, [2017-12-04T21:07:27.435774 #13773] ERROR -- default-centos-72: Class: Kitchen::Transport::SshFailed
+E, [2017-12-04T21:07:27.435782 #13773] ERROR -- default-centos-72: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-helpers busser-server_spec"
+
+$gem list busser -i 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+echo "       Installing Busser plugins: $plugins"
+$busser plugin install $plugins
+']
+E, [2017-12-04T21:07:27.435810 #13773] ERROR -- default-centos-72: ----------------------
+E, [2017-12-04T21:07:27.435821 #13773] ERROR -- default-centos-72: ------Backtrace-------
+E, [2017-12-04T21:07:27.435829 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2017-12-04T21:07:27.435838 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2017-12-04T21:07:27.435850 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2017-12-04T21:07:27.435878 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2017-12-04T21:07:27.435888 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2017-12-04T21:07:27.435899 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T21:07:27.435909 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2017-12-04T21:07:27.435917 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2017-12-04T21:07:27.435926 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2017-12-04T21:07:27.435934 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2017-12-04T21:07:27.435943 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2017-12-04T21:07:27.435951 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2017-12-04T21:07:27.435971 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2017-12-04T21:07:27.435981 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2017-12-04T21:07:27.435990 #13773] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2017-12-04T21:07:27.435999 #13773] ERROR -- default-centos-72: ----End Backtrace-----

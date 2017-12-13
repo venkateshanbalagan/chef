@@ -1,0 +1,18 @@
+---
+driver:
+  name: docker
+provisioner:
+  name: chef_zero
+verifier:
+  name: inspec
+platforms:
+  - name: centos-7.2
+
+suites:
+  - name: default
+    run_list:
+      - recipe[tomcat::default]
+    verifier:
+      inspec_tests:
+        - test/integration/default/serverspec
+    attributes:

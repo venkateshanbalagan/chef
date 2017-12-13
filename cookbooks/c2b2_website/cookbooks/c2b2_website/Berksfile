@@ -1,0 +1,7 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'apache2', '~> 3.1.0'
+
+Dir['/home/username/chef-repo/c2b2_website/cookbooks/**'].eachdo |path|
+  cookbookFile.basename(path), path: path
+end

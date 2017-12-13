@@ -1,0 +1,198 @@
+I, [2017-12-04T21:06:55.963335 #13773]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2017-12-04T21:06:55.964710 #13773]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2017-12-04T21:06:55.964833 #13773]  INFO -- default-ubuntu-1404: Preparing dna.json
+I, [2017-12-04T21:06:55.966389 #13773]  INFO -- default-ubuntu-1404: Preparing cookbooks from project directory
+I, [2017-12-04T21:06:55.968872 #13773]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2017-12-04T21:06:55.972387 #13773]  INFO -- default-ubuntu-1404: Preparing solo.rb
+I, [2017-12-04T21:06:56.079227 #13773]  INFO -- default-ubuntu-1404: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-12-04T21:06:56.080167 #13773]  INFO -- default-ubuntu-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-12-04T21:06:56.085663 #13773]  INFO -- default-ubuntu-1404: Trying wget...
+I, [2017-12-04T21:06:56.232349 #13773]  INFO -- default-ubuntu-1404: Download complete.
+I, [2017-12-04T21:06:56.253275 #13773]  INFO -- default-ubuntu-1404: ubuntu 14.04 x86_64
+I, [2017-12-04T21:06:56.253375 #13773]  INFO -- default-ubuntu-1404: Getting information for chef stable  for ubuntu...
+I, [2017-12-04T21:06:56.253398 #13773]  INFO -- default-ubuntu-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=14.04&m=x86_64
+I, [2017-12-04T21:06:56.253415 #13773]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.15/metadata.txt
+I, [2017-12-04T21:06:56.253429 #13773]  INFO -- default-ubuntu-1404: trying wget...
+I, [2017-12-04T21:06:56.309910 #13773]  INFO -- default-ubuntu-1404: sha1	968d6f567dc45ab4cd8d8f94a5e43d781a1d5ba1
+I, [2017-12-04T21:06:56.309986 #13773]  INFO -- default-ubuntu-1404: sha256	c523feb2494b407d71c56261035a58b6897ec6312f917477ef0b3fc4e27c072d
+I, [2017-12-04T21:06:56.310037 #13773]  INFO -- default-ubuntu-1404: url	https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2017-12-04T21:06:56.310052 #13773]  INFO -- default-ubuntu-1404: version	13.6.4
+I, [2017-12-04T21:06:56.310902 #13773]  INFO -- default-ubuntu-1404: downloaded metadata file looks valid...
+I, [2017-12-04T21:06:56.327786 #13773]  INFO -- default-ubuntu-1404: downloading https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2017-12-04T21:06:56.327835 #13773]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.15/chef_13.6.4-1_amd64.deb
+I, [2017-12-04T21:06:56.327856 #13773]  INFO -- default-ubuntu-1404: trying wget...
+I, [2017-12-04T21:06:57.599710 #13773]  INFO -- default-ubuntu-1404: Comparing checksum with sha256sum...
+I, [2017-12-04T21:06:57.895427 #13773]  INFO -- default-ubuntu-1404: 
+I, [2017-12-04T21:06:57.895518 #13773]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T21:06:57.895545 #13773]  INFO -- default-ubuntu-1404: 
+I, [2017-12-04T21:06:57.895562 #13773]  INFO -- default-ubuntu-1404: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-12-04T21:06:57.895575 #13773]  INFO -- default-ubuntu-1404: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-12-04T21:06:57.895588 #13773]  INFO -- default-ubuntu-1404: be upgraded without warning on new releases, even to new major releases.
+I, [2017-12-04T21:06:57.895608 #13773]  INFO -- default-ubuntu-1404: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-12-04T21:06:57.895622 #13773]  INFO -- default-ubuntu-1404: CI/CD environments.
+I, [2017-12-04T21:06:57.895633 #13773]  INFO -- default-ubuntu-1404: 
+I, [2017-12-04T21:06:57.895645 #13773]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T21:06:57.895656 #13773]  INFO -- default-ubuntu-1404: 
+I, [2017-12-04T21:06:57.895667 #13773]  INFO -- default-ubuntu-1404: Installing chef 
+I, [2017-12-04T21:06:57.895679 #13773]  INFO -- default-ubuntu-1404: installing with dpkg...
+I, [2017-12-04T21:06:57.980467 #13773]  INFO -- default-ubuntu-1404: Selecting previously unselected package chef.
+I, [2017-12-04T21:06:58.097822 #13773]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16008 files and directories currently installed.)
+I, [2017-12-04T21:06:58.097906 #13773]  INFO -- default-ubuntu-1404: Preparing to unpack .../chef_13.6.4-1_amd64.deb ...
+I, [2017-12-04T21:06:58.111233 #13773]  INFO -- default-ubuntu-1404: Unpacking chef (13.6.4-1) ...
+I, [2017-12-04T21:07:06.102900 #13773]  INFO -- default-ubuntu-1404: Setting up chef (13.6.4-1) ...
+I, [2017-12-04T21:07:06.274139 #13773]  INFO -- default-ubuntu-1404: Thank you for installing Chef!
+I, [2017-12-04T21:07:06.402588 #13773]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2017-12-04T21:07:08.034695 #13773]  INFO -- default-ubuntu-1404: Starting Chef Client, version 13.6.4
+I, [2017-12-04T21:07:09.123745 #13773]  INFO -- default-ubuntu-1404: Creating a new client identity for default-ubuntu-1404 using the validator key.
+I, [2017-12-04T21:07:09.157049 #13773]  INFO -- default-ubuntu-1404: resolving cookbooks for run list: []
+I, [2017-12-04T21:07:09.157130 #13773]  INFO -- default-ubuntu-1404: Synchronizing Cookbooks:
+I, [2017-12-04T21:07:09.179675 #13773]  INFO -- default-ubuntu-1404: Installing Cookbook Gems:
+I, [2017-12-04T21:07:09.179760 #13773]  INFO -- default-ubuntu-1404: Compiling Cookbooks...
+I, [2017-12-04T21:07:09.179782 #13773]  INFO -- default-ubuntu-1404: [2017-12-04T21:07:09+00:00] WARN: Node default-ubuntu-1404 has an empty run list.
+I, [2017-12-04T21:07:09.179807 #13773]  INFO -- default-ubuntu-1404: [2017-12-04T21:07:09+00:00] WARN: Node default-ubuntu-1404 has an empty run list.
+I, [2017-12-04T21:07:09.179824 #13773]  INFO -- default-ubuntu-1404: Converging 0 resources
+I, [2017-12-04T21:07:09.197352 #13773]  INFO -- default-ubuntu-1404: 
+I, [2017-12-04T21:07:09.197431 #13773]  INFO -- default-ubuntu-1404: Running handlers:
+I, [2017-12-04T21:07:09.206103 #13773]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2017-12-04T21:07:09.206181 #13773]  INFO -- default-ubuntu-1404: Chef Client finished, 0/0 resources updated in 01 seconds
+I, [2017-12-04T21:07:09.225887 #13773]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m13.26s).
+I, [2017-12-04T21:07:09.226017 #13773]  INFO -- default-ubuntu-1404: -----> Setting up <default-ubuntu-1404>...
+I, [2017-12-04T21:07:09.227237 #13773]  INFO -- default-ubuntu-1404: Finished setting up <default-ubuntu-1404> (0m0.00s).
+I, [2017-12-04T21:07:09.227355 #13773]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2017-12-04T21:07:09.228800 #13773]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2017-12-04T21:07:09.395731 #13773]  INFO -- default-ubuntu-1404: -----> Installing Busser (busser)
+I, [2017-12-04T21:07:09.890949 #13773]  INFO -- default-ubuntu-1404: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 26%)Fetching: thor-0.19.0.gem ( 29%)Fetching: thor-0.19.0.gem ( 32%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2017-12-04T21:07:09.939829 #13773]  INFO -- default-ubuntu-1404: Successfully installed thor-0.19.0
+I, [2017-12-04T21:07:09.977131 #13773]  INFO -- default-ubuntu-1404: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2017-12-04T21:07:09.986646 #13773]  INFO -- default-ubuntu-1404: Successfully installed busser-0.7.1
+I, [2017-12-04T21:07:09.986711 #13773]  INFO -- default-ubuntu-1404: 2 gems installed
+I, [2017-12-04T21:07:09.998649 #13773]  INFO -- default-ubuntu-1404: Installing Busser plugins: busser-helpers busser-server_spec
+I, [2017-12-04T21:07:11.062479 #13773]  INFO -- default-ubuntu-1404: /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/resolver/installer_set.rb:71:in `add_always_install': Unable to resolve dependency: user requested 'busser-helpers (>= 0)' (Gem::UnsatisfiableDependencyError)
+I, [2017-12-04T21:07:11.062568 #13773]  INFO -- default-ubuntu-1404: 	from /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/dependency_installer.rb:474:in `resolve_dependencies'
+I, [2017-12-04T21:07:11.062599 #13773]  INFO -- default-ubuntu-1404: 	from /opt/chef/embedded/lib/ruby/site_ruby/2.4.0/rubygems/dependency_installer.rb:384:in `install'
+I, [2017-12-04T21:07:11.062637 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:44:in `install_gem'
+I, [2017-12-04T21:07:11.062655 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:66:in `install_plugin_gem'
+I, [2017-12-04T21:07:11.062673 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:53:in `install'
+I, [2017-12-04T21:07:11.062690 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block (2 levels) in install_all'
+I, [2017-12-04T21:07:11.062750 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `each'
+I, [2017-12-04T21:07:11.062775 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block in install_all'
+I, [2017-12-04T21:07:11.062791 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:71:in `silence_gem_ui'
+I, [2017-12-04T21:07:11.062804 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:42:in `install_all'
+I, [2017-12-04T21:07:11.062818 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:11.062834 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:11.062850 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `block in invoke_all'
+I, [2017-12-04T21:07:11.062863 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `each'
+I, [2017-12-04T21:07:11.062876 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `map'
+I, [2017-12-04T21:07:11.062889 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `invoke_all'
+I, [2017-12-04T21:07:11.062918 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/group.rb:232:in `dispatch'
+I, [2017-12-04T21:07:11.062933 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2017-12-04T21:07:11.062947 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:40:in `block in register'
+I, [2017-12-04T21:07:11.062960 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:11.062984 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:11.062999 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2017-12-04T21:07:11.063012 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2017-12-04T21:07:11.063025 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:235:in `block in subcommand'
+I, [2017-12-04T21:07:11.063041 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2017-12-04T21:07:11.063056 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2017-12-04T21:07:11.063068 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2017-12-04T21:07:11.063081 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/base.rb:440:in `start'
+I, [2017-12-04T21:07:11.063096 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/gems/gems/busser-0.7.1/bin/busser:8:in `<top (required)>'
+I, [2017-12-04T21:07:11.063110 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/bin/busser:23:in `load'
+I, [2017-12-04T21:07:11.063123 #13773]  INFO -- default-ubuntu-1404: 	from /tmp/verifier/bin/busser:23:in `<main>'
+E, [2017-12-04T21:07:11.066025 #13773] ERROR -- default-ubuntu-1404: Verify failed on instance <default-ubuntu-1404>.
+E, [2017-12-04T21:07:11.066134 #13773] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2017-12-04T21:07:11.066157 #13773] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2017-12-04T21:07:11.066169 #13773] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-helpers busser-server_spec"
+
+$gem list busser -i 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+echo "       Installing Busser plugins: $plugins"
+$busser plugin install $plugins
+']
+E, [2017-12-04T21:07:11.066181 #13773] ERROR -- default-ubuntu-1404: ----------------------
+E, [2017-12-04T21:07:11.066191 #13773] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2017-12-04T21:07:11.066200 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2017-12-04T21:07:11.066210 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2017-12-04T21:07:11.066219 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2017-12-04T21:07:11.066228 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2017-12-04T21:07:11.066237 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2017-12-04T21:07:11.066246 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T21:07:11.066316 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2017-12-04T21:07:11.066339 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2017-12-04T21:07:11.066351 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2017-12-04T21:07:11.066361 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2017-12-04T21:07:11.066371 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2017-12-04T21:07:11.066381 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2017-12-04T21:07:11.066391 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2017-12-04T21:07:11.066401 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2017-12-04T21:07:11.066411 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2017-12-04T21:07:11.066420 #13773] ERROR -- default-ubuntu-1404: ----End Backtrace-----
+E, [2017-12-04T21:07:11.066430 #13773] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2017-12-04T21:07:11.066439 #13773] ERROR -- default-ubuntu-1404: Class: Kitchen::Transport::SshFailed
+E, [2017-12-04T21:07:11.066448 #13773] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-helpers busser-server_spec"
+
+$gem list busser -i 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+echo "       Installing Busser plugins: $plugins"
+$busser plugin install $plugins
+']
+E, [2017-12-04T21:07:11.066458 #13773] ERROR -- default-ubuntu-1404: ----------------------
+E, [2017-12-04T21:07:11.066468 #13773] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2017-12-04T21:07:11.066477 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2017-12-04T21:07:11.066486 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2017-12-04T21:07:11.066502 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2017-12-04T21:07:11.066513 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2017-12-04T21:07:11.066522 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2017-12-04T21:07:11.066620 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T21:07:11.066635 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2017-12-04T21:07:11.066646 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2017-12-04T21:07:11.066656 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2017-12-04T21:07:11.066665 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2017-12-04T21:07:11.066674 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2017-12-04T21:07:11.066683 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2017-12-04T21:07:11.066692 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2017-12-04T21:07:11.066701 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2017-12-04T21:07:11.066711 #13773] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2017-12-04T21:07:11.066719 #13773] ERROR -- default-ubuntu-1404: ----End Backtrace-----
